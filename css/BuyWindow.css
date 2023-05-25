@@ -1,0 +1,94 @@
+.buy-window__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--window-buy-bg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.buy-window__form {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 400px;
+    width: 100%;
+
+
+    border-radius: 20px;
+    padding: 20px;
+
+    background: var(--window-buy-form);
+}
+
+
+.buy-window__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy-window__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buy-window__count-input {
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    width: 50px;    
+}
+
+
+.buy-window__color-radio {
+    margin-right: 10px;
+}
+
+.buy-window__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-window__description-label {
+    display: block;
+}
+
+.buy-window__description-input {
+
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+
+}
+
+.buy-window__exit-button {
+    background: var(--window-buy-exit);
+    width: 30px;
+    height: 30px;
+    transition: all 0.1s ease-in;
+}
+
+.buy-window__exit-button:hover {
+    transform: scale(1.05);
+}
+
+.buy-window__buy-button {
+    font-weight: 600;
+    border: 1px solid var(--card-buy-color);
+    border-radius: 10px;
+    padding: 3px;
+
+    transition: all 0.1s ease-in;
+}
+
+.buy-window__buy-button:hover {
+    transform: scale(1.05);
+}

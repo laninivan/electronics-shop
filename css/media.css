@@ -1,0 +1,7 @@
+@media (max-width: 1000px) {
+
+    .cards-block__content {
+        grid-template-columns: repeat(2,350px) !important;
+    }
+}
+

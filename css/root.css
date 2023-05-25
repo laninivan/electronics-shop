@@ -1,0 +1,41 @@
+:root {
+    --text-color: rgb(51, 51, 51);
+    --text-no-main-color: rgb(123, 123, 123);
+    --bg-color: rgb(220, 220, 220);
+    --header-bg-color: rgba(178, 177, 177, 0.755);
+    --card-bg-color: rgb(255, 255, 255);
+    --card-buy-color: rgb(196, 181, 86);
+
+    --window-buy-bg:rgba(192, 193, 227, 0.398);
+    --window-buy-form:rgb(255, 255, 255);
+    --window-buy-exit: url('../img/icons/exit-day.svg');
+
+    --arrow-up-url:url(../img/icons/up-arrow--day.svg);
+
+    --scrollbarBg: rgb(201, 203, 180);
+    --scrollbarThumb: rgba(255, 255, 253, 0.8);
+    --scrollbarWidth: 15px;
+    --scrollbarBorder: 3px solid var(--scrollbarBg);
+    --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
+  }
+
+[isNight] {
+    --text-color: rgb(222, 222, 222);
+    --text-no-main-color: rgb(190, 190, 190);
+    --bg-color: rgb(52, 48, 62);
+    --header-bg-color: rgba(26, 21, 45, 0.755);
+    --card-bg-color: rgb(121, 105, 154);
+    --card-buy-color: rgb(231, 221, 152);
+
+    --window-buy-bg:rgba(74, 74, 87, 0.563);
+    --window-buy-form:rgb(121, 105, 154);
+    --window-buy-exit: url('../img/icons/exit-night.svg');
+
+    --arrow-up-url:url(../img/icons/up-arrow--night.svg);
+
+    --scrollbarBg: rgb(36, 36, 78);
+    --scrollbarThumb: rgba(138, 126, 154, 0.8);
+    --scrollbarWidth: 15px;
+    --scrollbarBorder: 3px solid var(--scrollbarBg);
+    --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
+}
